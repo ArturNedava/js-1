@@ -1,11 +1,11 @@
 
-let age = 12;
+let age = 13;
 
 console.log(age)
 
 let name = "Artur";
 
-console.log("Artur")
+console.log(name)
 
 let  isStudent = true;
 
@@ -15,25 +15,51 @@ let myString
 
 console.log("У нас есть что было,и нужно смотреть какой мы можем.Виталий Кличко")
 
-let myNumber = 10;
+let myNumber = 5; 
 
-console.log(myNumber+10);
+myNumber += 10; 
+
+console.log(myNumber);
 
 let myNull = null;
 
-console.log(null)
+console.log(myNull)
 
-alert('hello')
+let nome = prompt("Будь ласка, введіть ваше ім'я:");
 
-let prm = prompt("Здравствуй друг")
+if (name != null && name != "") {
+  
+  alert("Привіт, " + name + "!");
+} else {
+  alert("Ви не ввели своє ім'я!");
+}
 
-confirm("спасибо за подтверждение")
+let result = confirm("Ви впевнені, що хочете продовжити?");
 
-console.log(prm);
 
-let conf = confirm("действие отменино")
+if (result) {
+  
+  alert("Дякую за підтвердження!");
+} else {
 
-console.log(typeof conf);
+  alert("Дію відмінено!");
+}
+
+
+alert("Увага! Ця дія небезпечна.");
+
+
+var resulte = confirm("Ви впевнені, що хочете продовжити?");
+
+
+if (result) {
+  
+  alert("Дякую за підтвердження!");
+} else {
+
+  alert("Дію відмінено!");
+}
+
 
 
 
